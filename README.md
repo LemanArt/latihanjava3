@@ -82,11 +82,11 @@ ___
         }
 ```
 • Hasil Run
-![Gambar 1](src/ss/runprogram.png)
+![Gambar 1](Inheritance/src/ss/runprogram.png)
 ___
 ___
 ### Implementasikan java code diagram class berikut:
-![Gambar 2](src/ss/tugas2.png)
+![Gambar 2](Inheritance/src/ss/tugas2.png)
 • Mendeklarasikan <i>class pegawai</i> sebagai superclass
 ```java
         public class pegawai {
