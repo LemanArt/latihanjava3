@@ -87,6 +87,7 @@ ___
 ___
 ### Implementasikan java code diagram class berikut:
 ![Gambar 2](Inheritance/src/ss/tugas2.png)
+<br>
 • Mendeklarasikan <i>class pegawai</i> sebagai superclass
 ```java
         public class pegawai {
