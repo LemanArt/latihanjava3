@@ -82,5 +82,72 @@ ___
         }
 ```
 • Hasil Run
-![Gambar 1](src/ss/hasilrun.png)
+![Gambar 1](src/ss/runprogram.png)
+___
+___
+### Implementasikan java code diagram class berikut:
+![Gambar 2](src/ss/tugas2.png)
+• Mendeklarasikan <i>class pegawai</i> sebagai superclass
+```java
+        public class pegawai {
 
+            private String nama;
+            private double gajiPokok;
+
+            public void setNama(String Nama) {
+                this.nama = Nama;
+            }
+            public void setgajiPokok(double GajiPokok) {
+                this.gajiPokok = GajiPokok;
+            }
+            public String getNama() {
+                return this.nama;
+            }
+            public double getgajiPokok() {
+                return this.gajiPokok;
+            }
+            public void cetakInfo(){
+                System.out.println("Nama :"+ nama + "bagian" +  "\n Gaji :" + gajiPokok + "\n");
+            } 
+        }
+```
+• Mendeklarasikan <i>class Manager</i> yang merupakan subclass dari <i>class pegawai</i>
+```java
+        public class Manager extends pegawai {
+            private double tunjangan;
+            
+            public void setTunjangan(double Tunjangan) {
+                this.tunjangan = Tunjangan;
+            }
+            public double getTunjangan() {
+                return this.tunjangan;
+            }
+            public void cetakInfo(){
+                
+            }
+            public void cetakTunjangan(){
+                
+            }
+        }
+```
+• Mendeklarasikan <i>class Programmer</i> yang merupakan subclass dari <i>class pegawai</i>
+```java
+        public class Programmer extends pegawai {
+            private double bonus;
+            
+            public void setTunjangan(double Bonus) {
+                this.bonus = Bonus;
+            }
+            public double getBonus() {
+                return this.bonus;
+            }
+            public void cetakInfo(){
+                
+            }
+            public void cetakBonus(){
+                
+            }
+        }
+```
+___
+<b>SELESAI</b>
