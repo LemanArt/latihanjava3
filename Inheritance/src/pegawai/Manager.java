@@ -8,7 +8,7 @@ package pegawai;
  *
  * @author Leman
  */
-public class Manager {
+public class Manager extends pegawai {
     private double tunjangan;
     
      public void setTunjangan(double Tunjangan) {

@@ -26,6 +26,7 @@ public class pegawai {
         return this.gajiPokok;
     }
     public void cetakInfo(){
-        
+        System.out.println("Nama :"+ nama + "bagian" +  "\n Gaji :" + gajiPokok + "\n");
     }
+    
 }
